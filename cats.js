@@ -18,5 +18,5 @@ for (let i = 0; i < smallImgs.length; i++) {
 
 }
 mainImg.ondblclick = function () {
-    mainImg.src = "./assers/cat_1.jpg";
+    window.location.reload();
 }
