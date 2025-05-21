@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Merienda:wght@300..900&family=Playwrite+HR+Lijeva:wght@100..400&family=Poetsen+One&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap');
+
+* {
+    font-family: "Comfortaa", sans-serif;
+    background-color: rgb(158, 153, 147);
+    color: rgba(71, 71, 71, 0.95);
+}
+
+.containter {
+    position: relative;
+    margin: 5vh auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 650px;
+    width: 90%;
+    max-width: 1200px;
+}
+
+.left_gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 750px;
+}
+
+.left_gallery .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main_Img {
+    width: 600px;
+    height:  400px;
+    margin: 20px 0;
+    object-fit: cover;
+
+}
+
+#btnL, #btnR {
+    background-color: rgba(53, 52, 52, 0.84);
+    color: rgba(245, 245, 245, 0.62);
+    border-radius: 50% 0 0 50%;
+    padding: 15px 5px;
+
+}
+
+#btnR {
+    border-radius: 0 50% 50% 0;
+}
+
+.btn:hover {
+    color: whitesmoke;
+    cursor: pointer;
+    font-size: larger;
+}
+
+.small_gallery {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.small_gallery img {
+    width: 160px;
+    height: 120px;
+    object-fit: cover;
+    padding: 0 10px;
+}
+
+.right_info{
+    width: 500px;
+}
+.right_info h5 {
+    margin: 0;
+}
+
+.right_info h4 {
+    margin-bottom: 10px;
+}
